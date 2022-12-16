@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+header {
+    background-color: orange;
+}
+
+header .row {
+    justify-content: space-between;
+    color: white;
+    font-weight: bold; 
+}
+
+.header-menu {
+    display: flex;
+}
+
+.menu-item {
+    margin: 5px;
+}
+
+.container, section {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.row {
+    display: flex;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex-basis: calc(100% / 3);
+}
+
+.img {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.heart {
+    width: 30px;
+    background-color: white;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.discount {
+    display: flex;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    gap: 5px;
+    position: absolute;
+    bottom: 50px;
+}
+
+.sconto {
+    width: 50px;
+    padding: 5px;
+    background-color: red;
+}
+
+.green {
+    width: max-content;
+    padding: 5px;
+    background-color: green;
+}
+
+.prezzo {
+    color: red;
+    font-weight: bold;
+}
+
+.boolando {
+    font-size: 20px;
+    padding: 5px;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+}
+
+footer .row {
+    justify-content: space-between;
+}
+
+.hover {
+    display: none;
+}
+
+.img:hover .hover {
+    display: block;
+}
+
+.img:hover .shop {
+    display: none;
+}
